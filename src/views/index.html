@@ -1,14 +1,83 @@
 <!DOCTYPE html>
 <html lang="de">
   <head>
-    <title>Static Website Template</title>
+    <title>google demo</title>
     <module href="/components/head.html"></module>
   </head>
 
   <body>
     <div class="center full-sized">
-      <h1>Static Website Template</h1>
-      <img src="images/logo.png" />
+      <div id="header" class="header">
+        <ul>
+          <li><a href="">gmail</a></li>
+          <li><a href="">images</a></li>
+          <li>
+            <a href="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24"
+                viewBox="0 0 24 24"
+                width="24"
+              >
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path
+                  d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+                />
+              </svg>
+            </a>
+          </li>
+          <li><button type="button" class="btn">Sign In</button></li>
+        </ul>
+      </div>
+
+      <section class="container">
+        <div class="logo">
+          <img
+            height="56"
+            src="http://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png"
+            width="160"
+            id="hplogo"
+            alt="Google"
+            data-atf="1"
+          />
+        </div>
+
+        <div class="search-container">
+          <div class="search-container_icon">
+            <svg
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              ></path>
+            </svg>
+          </div>
+          <input type="text" class="search-container_input" />
+        </div>
+        <section class="sub-search-container">
+          <ul>
+            <li>
+              <button type="button" class="btn secondary">Google search</button>
+            </li>
+            <li>
+              <button type="button" class="btn secondary">
+                I'm feeling lucky
+              </button>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <div id="footer" class="footer">
+        <ul>
+          <li>Ofrecido por Google en:</li>
+          <li><a href="">català</a></li>
+          <li><a href="">galego</a></li>
+          <li><a href="">euskara</a></li>
+        </ul>
+      </div>
     </div>
 
     <script src="bundle.js" defer async></script>

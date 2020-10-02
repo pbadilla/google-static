@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  height: 3rem;
+  justify-content: flex-end;
+  width: 100%;
+  ul {
+    height: 100%;
+    margin: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+    li {
+      align-items: center;
+      color: $defaultFont;
+      font-size: 13px;
+      justify-content: center;
+      list-style: none;
+      margin-right: 10px;
+      a {
+        text-decoration: none;
+        color: $defaultFont;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

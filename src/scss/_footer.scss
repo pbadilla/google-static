@@ -1,0 +1,14 @@
+.footer {
+  font-size: 13px;
+  line-height: 16px;
+  ul {
+    color: $primary;
+    li {
+      display: inline-flex;
+      a {
+        color: $links;
+        text-decoration: none;
+      }
+    }
+  }
+}

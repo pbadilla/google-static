@@ -1,0 +1,21 @@
+.container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20% 0;
+  text-align: center;
+  width: 100%;
+  @include respond-to("xsmall") {
+    width: 80%;
+  }
+}
+.sub-search-container {
+  ul {
+    display: inline-flex;
+    li {
+      list-style-type: none;
+      align-content: space-between;
+    }
+  }
+}
